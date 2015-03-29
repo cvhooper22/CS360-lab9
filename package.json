@@ -1,0 +1,28 @@
+{
+  "author": "Matthew Freeman",
+  "name": "weather-news",
+  "version": "0.0.2",
+  "description": "Implementation of Lab 9 in BYU CS 360",
+  "repository": {
+	"type": "git",
+	"url": "http://github.com/cvhooper22/CS360/Lab9"
+  },
+  "keywords": [
+	"BYU",
+	"CS 360",
+	"360 Labs"
+  ],
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.12.0",
+    "cookie-parser": "~1.3.4",
+    "debug": "~2.1.1",
+    "ejs": "~2.3.1",
+    "express": "~4.12.2",
+    "mongoose": "^4.0.0",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
+  }
+}
